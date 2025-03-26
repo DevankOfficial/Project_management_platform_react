@@ -35,6 +35,7 @@ Powered by **Django & Python** for secure and efficient backend operations.
 ```sh
 git clone https://github.com/your-username/project-management-platform.git
 cd project-management-platform
+```
 
 ### **2. Backend Setup**
 ```sh
@@ -44,12 +45,14 @@ source env/bin/activate  # On Windows use: env\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+```
 
 ### **3. Frontend Setup**
 ```sh
 cd frontend
 npm install
 npm start
+```
 
 ## 🖥️ Usage
 1. Signup/Login to access the platform.
