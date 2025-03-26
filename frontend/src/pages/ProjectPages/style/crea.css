@@ -1,0 +1,50 @@
+.create-project-container {
+    max-width: 80%;
+    max-height: 100%;
+    margin: 0 auto; 
+    margin-top: 20px;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    /* background-color: #fff; */
+    /* border-radius: 8px; */
+  }
+  
+  .create-project-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .create-project-container form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .create-project-container input[type="text"],
+  .create-project-container input[type="number"],
+  .create-project-container textarea {
+    padding: 10px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .create-project-container input[type="text"]:focus,
+  .create-project-container input[type="number"]:focus,
+  .create-project-container textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .create-project-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .create-project-container button:hover {
+    background-color: #0056b3;
+  }

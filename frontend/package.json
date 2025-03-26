@@ -1,0 +1,72 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://192.168.0.150:7271",
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/material": "^5.15.20",
+    "@srexi/purecounterjs": "^1.5.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "aos": "^2.3.4",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "crypto-js": "^4.2.0",
+    "email-validator": "^2.0.4",
+    "glightbox": "^3.3.0",
+    "isotope-layout": "^3.0.6",
+    "react": "^18.3.1",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-bootstrap": "^2.10.2",
+    "react-chartist": "^0.14.4",
+    "react-dnd": "^16.0.1",
+    "react-dom": "^18.3.1",
+    "react-drag-and-drop": "^3.0.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-helmet": "^6.1.0",
+    "react-multi-carousel": "^2.8.5",
+    "react-notification-alert": "^0.0.13",
+    "react-owl-carousel": "^2.3.3",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "slider": "^1.0.4",
+    "styled-components": "^6.1.11",
+    "swiper": "^11.1.4",
+    "typed.js": "^2.1.0",
+    "waypoint": "^0.2.8",
+    "waypoints": "^4.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "set PORT=7272 && react-scripts start --host 0.0.0.0",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "webpack": "^5.92.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

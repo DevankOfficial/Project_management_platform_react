@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 800">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #258cd7;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+      }
+
+      .cls-4, .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+
+      .cls-5 {
+        stroke: #258cd7;
+      }
+
+      .cls-3 {
+        fill: url(#web3);
+      }
+    </style>
+    <pattern id="web3" x="0" y="0" width="200" height="255.18" patternUnits="userSpaceOnUse" viewBox="0 0 200 255.18">
+      <g>
+        <rect class="cls-2" width="200" height="255.18"/>
+        <polygon class="cls-5" points="149.75 138.69 106.45 250.69 193.05 250.69 149.75 138.69"/>
+        <polygon class="cls-5" points="49.75 138.69 6.45 250.69 93.05 250.69 49.75 138.69"/>
+        <g>
+          <polygon class="cls-5" points="199.75 11.09 156.45 123.09 243.05 123.09 199.75 11.09"/>
+          <g>
+            <polygon class="cls-1" points="200.25 244.09 243.55 132.09 156.95 132.09 200.25 244.09"/>
+            <polygon class="cls-4" points="200.25 244.09 243.55 132.09 156.95 132.09 200.25 244.09"/>
+          </g>
+        </g>
+        <g>
+          <polygon class="cls-1" points="150.25 116.5 193.55 4.5 106.95 4.5 150.25 116.5"/>
+          <polygon class="cls-4" points="150.25 116.5 193.55 4.5 106.95 4.5 150.25 116.5"/>
+        </g>
+        <g>
+          <polygon class="cls-5" points="99.75 11.09 56.45 123.09 143.05 123.09 99.75 11.09"/>
+          <g>
+            <polygon class="cls-1" points="100.25 244.09 143.55 132.09 56.95 132.09 100.25 244.09"/>
+            <polygon class="cls-4" points="100.25 244.09 143.55 132.09 56.95 132.09 100.25 244.09"/>
+          </g>
+        </g>
+        <g>
+          <polygon class="cls-1" points="50.25 116.5 93.55 4.5 6.95 4.5 50.25 116.5"/>
+          <polygon class="cls-4" points="50.25 116.5 93.55 4.5 6.95 4.5 50.25 116.5"/>
+        </g>
+        <g>
+          <polygon class="cls-5" points="-.25 11.09 -43.55 123.09 43.05 123.09 -.25 11.09"/>
+          <g>
+            <polygon class="cls-1" points=".25 244.09 43.55 132.09 -43.05 132.09 .25 244.09"/>
+            <polygon class="cls-4" points=".25 244.09 43.55 132.09 -43.05 132.09 .25 244.09"/>
+          </g>
+        </g>
+      </g>
+    </pattern>
+  </defs>
+  <rect class="cls-3" width="1280" height="800"/>
+</svg>

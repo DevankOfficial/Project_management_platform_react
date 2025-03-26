@@ -1,0 +1,171 @@
+.slider {
+    height: calc(100vh - 120px);
+    background-color: #28282865;
+    position: relative;
+  }
+  .slider__imageContainer {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .slider__image {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slider .MuiSvgIcon-root {
+    color: white !important;
+    height: 15px;
+    width: 15px;
+  }
+  .slider .MuiIconButton-root {
+    padding: 5px;
+  }
+  
+  .slider__bulletContainer {
+    width: max-content;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .slider__bulletContainer:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .slider__title {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    width: 100%;
+    font-family: "Staatliches";
+    font-size: 6em;
+    color: rgba(255, 255, 255, 0.96);
+  }
+  .slider__body {
+    text-align: center;
+    width: 100%;
+    font-family: "Staatliches";
+    font-size: 0.33em;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.96);
+  }
+  .slider__btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.96);
+  }
+  .slider__btn a {
+    width: 250px;
+    font-family: "Staatliches" !important;
+    font-size: 2em;
+    letter-spacing: 1px;
+    background-color: orangered;
+  }
+  
+  .slider__rightNavigation,
+  .slider__leftNavigation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+  }
+  .slider__leftNavigation:hover,
+  .slider__rightNavigation:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+  .slider__leftNavigation {
+    left: 10px;
+  }
+  .slider__rightNavigation {
+    right: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .slider {
+      height: 40vh;
+    }
+    .slider__title {
+      top: 10px;
+      font-size: 2em;
+    }
+    .slider__body {
+      font-size: 0.5em;
+    }
+    .slider__btn {
+      bottom: 30px;
+    }
+  }
+  
+  .error-404 {
+    background-color: #313942;
+    font-family: "Staatliches", sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  .error-404 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .error-404 h1 {
+    color: #e7ebf2;
+    font-size: 12.5rem;
+    letter-spacing: 0.1em;
+    margin: 0.025em 0;
+    text-shadow: 0.05em 0.05em 0 rgba(0, 0, 0, 0.25);
+    white-space: nowrap;
+  }
+  @media (max-width: 30rem) {
+    .error-404 h1 {
+      font-size: 8.5rem;
+    }
+    .error-404 img {
+      height: 150px;
+    }
+  }
+  .error-404 h1 > span {
+    -webkit-animation: spooky 2s alternate infinite linear;
+    animation: spooky 2s alternate infinite linear;
+    color: #528cce;
+    display: inline-block;
+  }
+  
+  .error-404 h2 {
+    color: #e7ebf2;
+    margin-bottom: 0.4em;
+  }
+  
+  .error-404 p {
+    color: #ccc;
+    margin-top: 0;
+  }
+  
+  @-webkit-keyframes spooky {
+    from {
+      transform: translatey(0.15em) scaley(0.95);
+    }
+    to {
+      transform: translatey(-0.15em);
+    }
+  }
+  
+  @keyframes spooky {
+    from {
+      transform: translatey(0.15em) scaley(0.95);
+    }
+    to {
+      transform: translatey(-0.15em);
+    }
+  }
+  

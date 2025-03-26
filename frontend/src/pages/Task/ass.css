@@ -1,0 +1,38 @@
+/* TaskItem.css */
+.task-item {
+    position: relative;
+    padding: 1rem;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 1rem;
+    border-top: 5px solid var(--top-border-color); 
+    border-bottom: 2px solid var(--bottom-border-color); 
+  }
+  
+  .task-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .task-name {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .task-project {
+    margin: 0;
+    color: #6c757d;
+  }
+  
+  .task-deadline {
+    font-size: 0.875rem;
+  }
+  
+  .task-item .top-border {
+    border-top-width: 20px;
+    border-top-style: solid;
+  }
+  
+  .task-item .bottom-border {
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+  }
+  

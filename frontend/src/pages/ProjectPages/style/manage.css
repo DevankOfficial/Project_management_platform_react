@@ -1,0 +1,176 @@
+.manage-project-container {
+  padding: 16px;
+}
+
+.project-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-item {
+  margin-bottom: 16px;
+}
+
+.project-item.inactive {
+  opacity: 0.5;
+}
+
+.project-details-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 25px;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+h2 {
+  text-align: center;
+}
+
+.project-details {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
+  height: 80%;
+  overflow-y: auto;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.project-details-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project-details-form input[type="text"],
+.project-details-form input[type="number"],
+  .project-details-form  textarea {
+    padding: 10px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .project-details-form  input[type="text"]:focus,
+  .project-details-form  input[type="number"]:focus,
+  .project-details-form  textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .project-details-form  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .project-details-form  button:hover {
+    background-color: #0056b3;
+  }
+
+.project-details-form input,
+.project-details-form textarea {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.project-details-form button {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  background-color: #0056b3;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.project-details-form button:hover {
+  background-color: #004494;
+}
+
+.progress-bar-container {
+  margin-top: 16px;
+  background-color: #f8f9fa; 
+  padding: 10px;
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-management {
+  margin-top: 32px;
+  background-color: #e9ecef; /* Light gray background */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.notification-form {
+  margin-top: 32px;
+  background-color: #f1f3f5; /* Light background */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.notification-form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+}
+
+.notification-form ul li {
+  margin-bottom: 10px; /* Space between list items */
+  padding: 10px;
+  background-color: #ffffff; /* White background for list items */
+  border-radius: 4px; /* Rounded corners for list items */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Light shadow for list items */
+}
+
+.notification-form ul li:last-child {
+  margin-bottom: 0; /* Remove bottom margin for the last item */
+}
+
+li {
+  position: relative; 
+}
+
+.project-icons {
+  display: flex;
+  gap: 10px;
+  margin: auto;
+  padding: 15px;
+  cursor: pointer;
+  flex-direction: column;
+  position: absolute; 
+  top: 10px; 
+  right: 10px; 
+  z-index: 10; 
+  /* background-color: rgba(255, 255, 255, 0.8);  */
+  /* border-radius: 8px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}

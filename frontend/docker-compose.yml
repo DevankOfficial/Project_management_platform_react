@@ -1,0 +1,14 @@
+
+version: '3.8'
+
+services:
+  IP_Website_Frontend:
+    build: .
+    container_name: IP_Website_Frontend
+    ports:
+      - 7272 : 7272
+    volumes:
+      - . : /app
+      - ./node_modules
+    stdin_open: true
+    tty: true
